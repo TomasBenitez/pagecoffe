@@ -1,0 +1,666 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+.coffe{
+    width: 50px;
+    position: relative;
+    left: 1cm;
+}
+
+li{
+    position: relative;
+    left: 1cm;
+    
+}
+
+nav{
+    background-color: rgb(194, 192, 190) !important;
+    
+}
+
+.slider{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(36, 14, 14);
+    
+    
+}
+
+.slider h6{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    color: white;
+    
+}
+
+button{
+    margin-right: 30px;
+}
+
+
+.fondo{
+    background-color: rgb(41, 22, 22);
+    width: 50%;
+    height: 350px;
+    position: relative;
+    left: 18.1cm;
+    
+}
+
+.fondo{
+    width: 665px;
+    height: 350px;
+    position: relative;
+    right: 18.1cm;
+    
+}
+.h3{
+    position: relative;
+    bottom: 5.5cm;
+    left: 1cm;
+    font-size: 1.3cm;
+    color: rgb(36, 14, 14);
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.fondo2{
+    width: 684px;
+    height: 350px;
+    position: relative;
+    background-color: rgb(148, 131, 124);
+    bottom: 350px;
+
+}
+.coffe{
+    text-align: center;
+    position: relative;
+    top: 2.5cm;
+    left: 4.5cm;
+    font-size: 100px;
+    color: rgb(36, 14, 14); ;
+}
+
+.hot{
+    text-align: center;
+    position: relative;
+    top: 2.5cm;
+    font-size: 100px;
+    color: rgb(148, 131, 124);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Istok+Web);
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+* {
+  box-sizing: border-box;
+}
+body, figure { 
+  margin: 0; 
+  font-family: Istok Web, sans-serif;
+  font-weight: 100;
+}
+div#captioned-gallery { 
+  width: 40%; overflow: hidden; 
+}
+div#captioned-gallery2 { 
+    width: 40%; overflow: hidden; 
+  }
+figure.slider { 
+  position: relative; width: 500%;
+  font-size: 0; animation: 30s slidy infinite; 
+}
+figure.slider figure { 
+  width: 20%; height: auto;
+  display: inline-block;  position: inherit; 
+}
+figure.slider img { width: 100%; height: auto; }
+figure.slider figure figcaption { 
+  position: absolute; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  color: #fff; width: 100%;
+  font-size: 2rem; padding: .6rem; 
+}
+
+#captioned-gallery{
+    position: relative;
+    bottom: 7cm;
+    right: 9cm;
+    height: 0.1px;
+    width: 100px;
+    margin: auto;
+    background: none;
+    border: solid 2px black;
+    
+
+}
+
+#captioned-gallery img{
+    position: relative;
+    bottom: 1.5cm;
+    background: none;
+    height: 800px;
+    width: 300px;
+}
+
+#captioned-gallery{
+    position: relative;
+    
+}
+#captioned-gallery2{
+    position: relative;
+    bottom: 14.9cm;
+    height: 800px;
+    width: 300px;
+    margin: auto;
+    background: none;
+    border: solid 2px black;
+    left: 9cm
+    ;
+    
+
+}
+
+app-navbar{
+    max-height: 500px;
+}
+
+#captioned-gallery2 img{
+    position: relative;
+    bottom: 1.5cm;
+    
+    background: none;
+}
+
+@media screen and (min-width:320px) {
+    .fondo2{ width: 320px;    
+    }
+    .coffe{ font-size: 80px;
+            position: relative;
+            left: 1.2cm;
+        }
+        .fondo{
+            width: 320px;
+            position: relative;
+            top:9cm;
+            left: 0cm;
+        }
+        #captioned-gallery{
+            height: 0px;
+            width: 0px;
+            
+        }
+        #captioned-gallery2{
+            height: 0px;
+            width: 0px;
+            position: relative;
+            left: 0.1cm;
+            z-index: -2;
+            
+            
+        }
+        #captioned-gallery2 img{
+            position: relative;
+            bottom: 1.5cm;
+            height: 0px;
+            width: 0px;
+            background: none;
+        }
+        #captioned-gallery img{
+            position: relative;
+            bottom: 1.5cm;
+            background: none;
+            height: 0px;
+            width: 0px;
+        }
+}
+@media screen and (min-width:375px) {
+    .fondo2{ width: 375px;    
+    }
+    .coffe{ font-size: 80px;
+            position: relative;
+            left: 2cm;
+            top: 3cm;
+        }
+        .fondo{
+            width: 375px;
+            position: relative;
+            top:9cm;
+            left: 0cm;
+        }
+
+        .hot{
+            font-size: 80px;
+            position: relative;
+            left: cm;
+            top: 3cm;
+        }
+        #captioned-gallery{
+            height: 0px;
+            width: 0px;
+            
+        }
+            
+        }
+        #captioned-gallery2{
+            width: 0px;
+            height: 0px;
+            
+            
+        }
+        
+        #captioned-gallery2 img{
+            position: relative;
+            bottom: 1.5cm;
+            height: 0px;
+            width: 0px;
+            background: none;
+        }
+        #captioned-gallery img{
+            position: relative;
+            bottom: 1.5cm;
+            background: none;
+            height: 0px;
+            width: 0px;
+        }
+        
+
+@media screen and (min-width:425px) {
+    .fondo2{ width: 425px;    
+    }
+    .coffe{ font-size: 80px;
+            position: relative;
+            left: 2.7cm;
+            top: 3cm;
+        }
+        .fondo{
+            width: 425px;
+            position: relative;
+            top:9cm;
+            left: 0cm;
+        }
+        #captioned-gallery{
+            height: 0px;
+            width: 0px;
+            
+        }
+            
+        }
+        #captioned-gallery2{
+            width: 0px;
+            height: 0px;
+            
+            
+        }
+        
+        #captioned-gallery2 img{
+            position: relative;
+            bottom: 1.5cm;
+            height: 0px;
+            width: 0px;
+            background: none;
+        }
+        #captioned-gallery img{
+            position: relative;
+            bottom: 1.5cm;
+            background: none;
+            height: 0px;
+            width: 0px;
+        }
+        
+            
+            
+        
+        .hot{
+            font-size: 80px;
+            position: relative;
+            left: .3cm;
+            top: 3.5cm;
+        }
+    
+
+
+        @media screen and (min-width:768px) {
+            .fondo2{ width: 768px;   
+                height: 361px;
+                position: relative;
+                bottom: 360px;
+                    
+            }
+            .coffe{ font-size: 90px;
+                    position: relative;
+                    left: 7cm;
+                    top: 3cm;
+                }
+                .fondo{
+                    width: 768px;
+                    position: relative;
+                    top:9.5cm;
+                    left: 0cm;
+                    height: 360px;
+                   
+                }
+                #captioned-gallery{
+                    height: 0px;
+                    width: 0px;
+                    z-index: -1;
+                }
+                    
+                }
+                #captioned-gallery2{
+                    width: 0px;
+                    height: 0px;
+                    z-index: -1;
+                    
+                }
+                
+                #captioned-gallery2 img{
+                    position: relative;
+                    bottom: 1.5cm;
+                    height: 0px;
+                    width: 0px;
+                    background: none;
+                }
+                #captioned-gallery img{
+                    position: relative;
+                    bottom: 1.5cm;
+                    background: none;
+                    height: 0px;
+                    width: 0px;
+                }
+                
+                .hot{
+                    font-size: 90px;
+                    position: relative;
+                    right: 20px;
+                    top: 3.5cm;
+                }
+       
+       
+        
+
+@media screen and (min-width:1024px) {
+    .fondo2{ width: 510px;   
+        height:  507px;
+        position: relative;
+        bottom: 13.5cm;
+            
+    }
+    .coffe{ font-size: 90px;
+            position: relative;
+            left: 7cm;
+            top: 3cm;
+        }
+        .fondo{
+            width:  514px;
+            height:  512px;
+            position: relative;
+             top: -0.1cm;
+            left: 13.5cm;
+            
+            
+           
+        }
+        #captioned-gallery{
+            width: 1000px;
+            height: 300px;
+            position: relative;
+            bottom: 10cm;
+            left: 7.5cm;
+            
+            
+        }
+        #captioned-gallery img{
+            width: 500px;
+            height: 360px;
+            
+        }
+        #captioned-gallery2{
+            width: 1000px;
+            height: 300px;
+            position: relative;
+            bottom: 17.9cm;
+            left: -7cm;
+            
+            
+            
+        }
+        #captioned-gallery2 img{
+            width: 500px;
+            height: 360px;
+            
+        }
+        .hot{
+            font-size: 90px;
+            position: relative;
+            right: 10px;
+            top: 4.5cm;
+        }
+        .coffe{
+            font-size: 90px;
+            position: relative;
+            left: 3.5cm;
+            top: 4.5cm;
+        }
+        @media screen and (min-width:1440px) {
+            .fondo2{ width: 720px;   
+                height:   720px;
+                position: relative;
+                bottom: 19.2cm;
+                left: -.1px;
+                    
+            }
+            .coffe{ font-size: 90px;
+                    position: relative;
+                    left: 7cm;
+                    top: 3cm;
+                }
+                .fondo{
+                    width:   720px;
+                    height:   720px;
+                    position: relative;
+                     top: -0.1cm;
+                    left: 19cm;
+                    
+                    
+                   
+                }
+                #captioned-gallery{
+                    width: 1080px;
+                    height: 400px;
+                    position: relative;
+                    bottom: 16.2cm;
+                    left: 9.5cm;
+                    
+                    
+                }
+                #captioned-gallery img{
+                    width: 800px;
+                    height: 460px;
+                    
+                }
+                #captioned-gallery2{
+                    width: 1080px;
+                    height: 400px;
+                    position: relative;
+                    bottom: 26.9cm;
+                    left: -9.5cm;
+                    
+                    
+                    
+                }
+                #captioned-gallery2 img{
+                    width: 800px;
+                    height: 460px;
+                    
+                }
+                .hot{
+                    font-size: 80px;
+                    position: relative;
+                    right: 10px;
+                    top: 6.5cm;
+                }
+                .coffe{
+                    font-size: 80px;
+                    position: relative;
+                    left: 4.5cm;
+                    top: 6.5cm;
+                }
+        
+
+
+}
+@media screen and (min-width:1336px) {
+    .fondo2{ width: 688px;   
+        height:   578px;
+        position: relative;
+        bottom: 15.3cm;
+        left: -.2cm;
+            
+    }
+    .coffe{ font-size: 90px;
+            position: relative;
+            left: 7cm;
+            top: 88cm;
+            text-align: center;
+        }
+        .fondo{
+            width:   668px;
+            height:   578px;
+            position: relative;
+             top: -0.1cm;
+            left: 18cm;
+            top: .1px;
+            
+            
+           
+        }
+        #captioned-gallery{
+            width: 1080px;
+            height: 400px;
+            position: relative;
+            bottom: 15.2cm;
+            left: 9cm;
+            
+            
+        }
+        #captioned-gallery img{
+            width: 800px;
+            height: 460px;
+            
+        }
+        #captioned-gallery2{
+            width: 1080px;
+            height: 400px;
+            position: relative;
+            bottom: 25.8cm;
+            left: -9cm;
+            
+            
+            
+        }
+        #captioned-gallery2 img{
+            width: 800px;
+            height: 460px;
+            
+        }
+        .hot{
+            font-size: 120px;
+            position: relative;
+            right: 10px;
+            top: 6.5cm;
+        }
+        .coffe{
+            font-size: 120px;
+            position: relative;
+            left: 4.5cm;
+            top: 6.5cm;
+        }
+
+
+
+    }
+}
+
+
+@media screen and (min-width:1726px) {
+    .fondo2{ width: 863px;   
+        height:   866px;
+        position: relative;
+        bottom: 23cm;
+        left: .1-cm;
+            
+    }
+    .coffe{ font-size: 90px;
+            position: relative;
+            left: 7cm;
+            top: 3cm;
+        }
+        .fondo{
+            width:   863px;
+            height:   863px;
+            position: relative;
+             top: -0.1cm;
+            left: 22.8cm;
+            
+            
+           
+        }
+        #captioned-gallery{
+            width: 1080px;
+            height: 400px;
+            position: relative;
+            bottom: 22.2cm;
+            left: 11.5cm;
+            
+            
+        }
+        #captioned-gallery img{
+            width: 800px;
+            height: 460px;
+            
+        }
+        #captioned-gallery2{
+            width: 1080px;
+            height: 400px;
+            position: relative;
+            bottom: 32.9cm;
+            left: -11.5cm;
+            
+            
+            
+        }
+        #captioned-gallery2 img{
+            width: 800px;
+            height: 460px;
+            
+        }
+        .hot{
+            font-size: 120px;
+            position: relative;
+            right: 10px;
+            top: 6.5cm;
+        }
+        .coffe{
+            font-size: 120px;
+            position: relative;
+            left: 4.5cm;
+            top: 6.5cm;
+        }
+
+
+
+    }

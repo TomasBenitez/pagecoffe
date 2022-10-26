@@ -1,0 +1,64 @@
+
+.coffe{
+    width: 50px;
+    position: relative;
+    left: 1cm;
+}
+
+li{
+    position: relative;
+    left: 1cm;
+    
+}
+
+nav{
+    background-color: rgb(250, 247, 243)  !important;
+    
+}
+
+.slider{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(36, 14, 14);
+    
+    
+}
+
+.slider h6{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    color: white;
+    
+}
+
+button{
+    margin-right: 30px;
+}
+
+
+.fondo{
+    background-color: rgb(99, 84, 84);
+    width: 50%;
+    height: 350px;
+    position: relative;
+    left: 18.1cm;
+    
+}
+
+.img{
+    width: 685px;
+    height: 350px;
+    position: relative;
+    right: 18.1cm;
+}
+.h3{
+    position: relative;
+    bottom: 5.5cm;
+    left: 1cm;
+    font-size: 1.3cm;
+    color: rgb(36, 14, 14);
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
